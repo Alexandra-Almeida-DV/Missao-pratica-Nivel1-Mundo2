@@ -1,0 +1,95 @@
+body {
+    height: 800px;
+    color: rgb(249, 248, 245);
+    background-color: rgb(237, 219, 198);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(213, 147, 105);
+}
+
+ul {
+    display:  flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 6px;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ 
+a {
+    color: rgb(58, 11, 11);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.box {
+    justify-content: space-around;
+    flex-direction: row;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 40%;
+}
+
+fieldset {
+    border: 3px solid rgb(213, 147, 105);
+    border-radius: 10px;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(213, 147, 105);
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2%;
+}
+
+p{
+    color:  rgb(58, 11, 11);
+}
+
+#data_nascimento {
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submit {
+    background-color:rgb(213, 147, 105);
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    color: rgb(58, 11, 11);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+    margin-left: 49%;
+}
+
+footer a {
+    color: rgb(58, 11, 11);
+    display:  flex;
+    justify-content: center;
+}
+ 
